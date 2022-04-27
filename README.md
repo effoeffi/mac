@@ -5,11 +5,18 @@
 4. Install iTerm2, create new profile and change the font (iTerm2 → Preferences → Profiles → Text)
 5. Install go
 6. Install python 3
+```
+brew install python@3.10
+brew unlink python@3.9
+brew link --force python@3.10
+python3 --version
+```
 7. Generate new SSH keys for github
 8. Install intellij, python plugin and go plugin (GOROOT: /opt/homebrew/Cellar/go/1.18.1/libexec)
 9. Dark mode: "System Preferences" and click "General"
-10. Install oh-my-zsh
-11. get plugins from github and edit ~/.zshrc:
+11. container runtime [calima](https://github.com/abiosoft/colima/)
+12. Install oh-my-zsh
+13. get plugins from github and edit ~/.zshrc:
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
