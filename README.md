@@ -2,7 +2,8 @@
 
 1. Install brave and import bookmarks
 3. Install brew
-4. Install iTerm2, create new profile and change the font (iTerm2 → Preferences → Profiles → Text), set Alt/Cmd + Right/Left Arrow (iTerm2 → Preferences → Profiles → Keys → Key Mappings → Presets... → Natural Text Editing)
+4. Key-speed: System-Preferences → Keyboard → set to fast
+5. Install iTerm2, create new profile and change the font (iTerm2 → Preferences → Profiles → Text), set Alt/Cmd + Right/Left Arrow (iTerm2 → Preferences → Profiles → Keys → Key Mappings → Presets... → Natural Text Editing)
 6. Install gcloud
 7. Install kubectl
 8. Install go
@@ -45,3 +46,7 @@ export HOMEBREW_NO_ANALYTICS=1
 export GOPATH="${HOME}/view/go"
 export GO111MODULE=auto
 ```
+
+# apps
+1. Bitwarden
+2. Spotify
