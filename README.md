@@ -21,9 +21,11 @@ python3 --version
 12. Install oh-my-zsh
 13. get plugins from github and edit ~/.zshrc:
 ```
-git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
-
+brew install fzf
+brew install zsh-autosuggestions
+```
+```
 plugins=(
         fzf
         macos
