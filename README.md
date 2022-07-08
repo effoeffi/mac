@@ -6,7 +6,7 @@
 5. Install iTerm2, create new profile and change the font (iTerm2 → Preferences → Profiles → Text), set Alt/Cmd + Right/Left Arrow (iTerm2 → Preferences → Profiles → Keys → Key Mappings → Presets... → Natural Text Editing)
 6. Install gcloud
 7. Install kubectl
-8. Install go
+8. `brew install go`
 9. Install python 3
 ```
 brew install python@3.10
@@ -17,7 +17,7 @@ python3 --version
 7. Generate new SSH keys for github
 8. Install intellij, python plugin and go plugin (GOROOT: /opt/homebrew/Cellar/go/1.18.1/libexec)
 9. Dark mode: "System Preferences" and click "General"
-11. container runtime [calima](https://github.com/abiosoft/colima/)
+11. Container runtime [calima](https://github.com/abiosoft/colima/) `brew install colima`
 12. Install oh-my-zsh
 13. get plugins from github and edit ~/.zshrc:
 ```
