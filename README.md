@@ -52,3 +52,11 @@ export GO111MODULE=auto
 # apps
 1. Bitwarden
 2. Spotify
+
+# VSCode Shortcuts
+1. Quick file open: Command + P 
+2. Open terminal: Ctrl + `
+3. Move line: Option + Up/Down arrow
+4. Rename: F12
+5. Select current line: Command + L
+6. Duplicate line: Command + Shift + D
