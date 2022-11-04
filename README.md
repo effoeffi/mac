@@ -59,4 +59,4 @@ export GO111MODULE=auto
 3. Move line: Option + Up/Down arrow
 4. Rename: F12
 5. Select current line: Command + L
-6. Duplicate line: Command + Shift + D
+6. Duplicate line: Shift + Option + Down/Up
