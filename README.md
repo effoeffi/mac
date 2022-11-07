@@ -1,4 +1,4 @@
-# mac setup
+# Mac setup
 
 1. Install brave and import bookmarks
 3. Install brew
@@ -49,9 +49,12 @@ export GOPATH="${HOME}/view/go"
 export GO111MODULE=auto
 ```
 
-# apps
+# Apps
 1. Bitwarden
 2. Spotify
+3. Slack
+4. VSCode
+5. iTerm2
 
 # VSCode Shortcuts
 1. Quick file open: Command + P 
