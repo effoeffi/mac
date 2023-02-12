@@ -18,9 +18,13 @@ python3 --version
 7. Generate new SSH keys for github
 8. Install intellij, python plugin and go plugin (GOROOT: /opt/homebrew/Cellar/go/1.18.1/libexec)
 9. Dark mode: "System Preferences" and click "General"
-11. Container runtime [calima](https://github.com/abiosoft/colima/) `brew install colima`
-12. Install oh-my-zsh
-13. get plugins from github and edit ~/.zshrc:
+11. Container runtime [calima](https://github.com/abiosoft/colima/):
+```
+brew install docker
+brew install colima
+```
+13. Install oh-my-zsh
+14. get plugins from github and edit ~/.zshrc:
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
