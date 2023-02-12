@@ -1,7 +1,8 @@
 # Mac setup
 
-1. Install brave and import bookmarks
-3. Install brew
+1. Install brew
+2. Install brave and import bookmarks
+3. Install bitwarden
 4. Key-speed: System-Preferences → Keyboard → set to fast
 5. Install iTerm2, create new profile and change the font (iTerm2 → Preferences → Profiles → Text), set Alt/Cmd + Right/Left Arrow (iTerm2 → Preferences → Profiles → Keys → Key Mappings → Presets... → Natural Text Editing)
 6. Install gcloud
