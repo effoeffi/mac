@@ -15,16 +15,21 @@ brew unlink python@3.9
 brew link --force python@3.10
 python3 --version
 ```
-7. Generate new SSH keys for github
-8. Install intellij, python plugin and go plugin (GOROOT: /opt/homebrew/Cellar/go/1.18.1/libexec)
-9. Dark mode: "System Preferences" and click "General"
-11. Container runtime [calima](https://github.com/abiosoft/colima/):
+10. [Generate new SSH keys for github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+11. Set git username and email
+```
+git config --global user.name "username"
+git config --global user.email "MY_NAME@example.com"
+```
+12. Install intellij, python plugin and go plugin (GOROOT: /opt/homebrew/Cellar/go/1.18.1/libexec)
+13. Dark mode: "System Preferences" and click "General"
+14. Container runtime [calima](https://github.com/abiosoft/colima/):
 ```
 brew install docker
 brew install colima
 ```
-13. Install oh-my-zsh
-14. get plugins from github and edit ~/.zshrc:
+15. Install oh-my-zsh
+16. get plugins from github and edit ~/.zshrc:
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
